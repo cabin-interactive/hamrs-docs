@@ -30,8 +30,8 @@ export default defineAppConfig({
     },
     header: {
       logo: {
-        light: 'logo.svg',
-        dark: 'logo.svg',
+        light: 'logo-light.svg',
+        dark: 'logo-dark.svg',
       },
       showLinkIcon: true,
       exclude: [],
