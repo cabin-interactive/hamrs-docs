@@ -13,10 +13,10 @@ export default defineAppConfig({
       // }
     },
     github: {
-      dir: '.starters/default/content',
-      branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
+      dir: 'content',
+      branch: 'master',
+      repo: 'hamrs-docs',
+      owner: 'cabin-interactive',
       edit: true
     },
     aside: {
@@ -30,8 +30,8 @@ export default defineAppConfig({
     },
     header: {
       logo: {
-        light: 'logo-light.svg',
-        dark: 'logo-dark.svg',
+        light: '/logo-light.svg',
+        dark: '/logo-dark.svg',
       },
       showLinkIcon: true,
       exclude: [],
