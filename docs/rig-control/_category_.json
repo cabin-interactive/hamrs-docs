@@ -1,0 +1,8 @@
+{
+  "label": "Rig Control",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Using Flrig to control your rig from HAMRS."
+  }
+}
