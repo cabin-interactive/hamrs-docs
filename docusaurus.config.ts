@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'cabin-interactive', // Usually your GitHub org/user name.
-  projectName: 'docs.hamrs', // Usually your repo name.
+  projectName: 'hamrs-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/cabin-interactive/docs.hamrs/',
+            'https://github.com/cabin-interactive/hamrs-docs/',
         },
         blog: {
           showReadingTime: true,
