@@ -100,7 +100,7 @@ const config: Config = {
           items: [
             {
               label: 'Rig Control',
-              to: '/docs/rig-control',
+              to: '/docs/rig-control/getting-started',
             },
           ],
         },
