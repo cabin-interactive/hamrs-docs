@@ -18,16 +18,16 @@ Make sure to select the appropriate version for your operating system and follow
 You'll need to [configure FLRIG](http://www.w1hkj.com/flrig-help/initial_setup.html) to connect to your radio.
 You'll need the XMLRPC port:
 
-![FLRIG Server](/images/rig-control/flrig-server-window.png)
+![FLRIG Server](./img/flrig-server-window.png)
 
 ### Configuring HAMRS
 
 Now that FLRIG is running and connected to your radio, we need to make sure HAMRS nows how to talk to it.
 
 1. Open the **Config** menu
-![FLRIG Server](/images/rig-control/config-menu-item.png)
+![FLRIG Server](./img/config-menu-item.png)
 2. Go to the **Rig Control** tab
-![FLRIG Server](/images/rig-control/rig-control-tab.png)
+![FLRIG Server](./img/rig-control-tab.png)
 3. Enter the hostname/ip address and XMLRPC port in HAMRs config - the default may be `localhost` or `127.0.0.1`
 4. Click the **'Test Connection'** button.
 
