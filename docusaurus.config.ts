@@ -74,10 +74,16 @@ const config: Config = {
     },
     navbar: {
       logo: {
-        alt: 'My Site Logo',
+        alt: 'HAMRS Logo',
         src: 'img/logo-dark.svg',
       },
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'integrationSidebar',
+          position: 'left',
+          label: 'Integrations',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'rigControlSidebar',
