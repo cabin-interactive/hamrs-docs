@@ -1,0 +1,8 @@
+{
+  "label": "Sync",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Keep your logbooks in sync across all of your devices with HAMRS Sync."
+  }
+}

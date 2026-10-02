@@ -80,6 +80,12 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'syncSidebar',
+          position: 'left',
+          label: 'Sync',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'integrationSidebar',
           position: 'left',
           label: 'Integrations',
@@ -104,6 +110,10 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
+            {
+              label: 'Sync',
+              to: '/docs/sync/setting-up-sync',
+            },
             {
               label: 'Rig Control',
               to: '/docs/rig-control/getting-started',
