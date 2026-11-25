@@ -97,6 +97,23 @@ The quick settings panel (the sliders icon in the top navigation bar) has a **Li
 
 Your hamrs.app subscription has lapsed. Renew it under **Manage your subscription** on hamrs.app. HAMRS re-checks automatically, or you can quit and relaunch to force a check. If you don't plan to renew, clear the API Key field to dismiss the error.
 
+**Badge says "Errored" with "NetworkError when attempting to fetch resource"**
+
+HAMRS couldn't reach hamrs.app. Something between the device and the internet is in the way.
+
+- Check that the device is online. Open [hamrs.app](https://hamrs.app) in a browser on the same device. If it doesn't load, sync won't either.
+- On hotel, airport, or campground Wi-Fi, open a browser and accept the captive portal sign-in page first. Until you do, the network blocks everything else.
+- Turn off any VPN, firewall, or content blocker and try again. In the web logger, an ad blocker or privacy extension can block requests to hamrs.app.
+- Try another network, such as your phone's hotspot. If sync connects there, the first network is the problem.
+
+**Badge says "Errored" with "Invalid API key"**
+
+hamrs.app didn't recognize the key. It was mistyped, has a leading or trailing space, or has been revoked.
+
+- Click into the **API Key** field to reveal the key and compare it to the one on your hamrs.app Dashboard. Watch for a space at either end.
+- Check **Account > Sync** on hamrs.app. A revoked key won't work on any device again.
+- The quickest fix is to copy a fresh key from the Dashboard and paste it into every device, replacing the old one.
+
 **Badge says "Errored" with another message**
 
 - Make sure the key is pasted completely, with no leading or trailing spaces. Click into the field to reveal the key and compare it to hamrs.app.
@@ -105,10 +122,24 @@ Your hamrs.app subscription has lapsed. Renew it under **Manage your subscriptio
 
 **Badge says "Connected" but a device is missing QSOs**
 
-- Confirm the *same* key is entered on both devices. A different key on each device means they're syncing to different accounts.
-- Give it a moment. Large initial syncs take time.
-- Open the logbook again, or turn on **Live Sync** so changes appear while the logbook is open.
+When one device syncs and another doesn't, work down this list:
+
+- **Same key on every device.** Click into the **API Key** field on each device and compare. A different key on one device means it's syncing to a different account.
+- **Same app version on every device.** An older HAMRS on one device may not sync everything a newer one does. Update both to the latest version from [hamrs.app](https://hamrs.app).
+- **Same account in the web logger.** Opening the web logger from **Open Logger** signs it in with the key of whichever hamrs.app account you're logged in to in that browser. Make sure it's the same account whose key is pasted into your apps.
+- **Give it a moment.** Large initial syncs take time.
+- **Open the logbook again**, or turn on **Live Sync** so changes appear while the logbook is open.
 
 **Need to start over on a device?**
 
 Clear the API Key field and save. Sync is disabled for that device, and your local data is left in place. Paste the key back in to resume.
+
+## Moving logs without Sync
+
+If you don't have a hamrs.app subscription, you can still move logs between devices by hand using an ADIF file.
+
+1. On the device that has the QSOs, open the logbook, click its settings gear, and choose **Export .ADI**.
+2. Move the `.adi` file to the other device with iCloud Drive, Dropbox, OneDrive, AirDrop, or however you usually share files.
+3. On the other device, import the file into a logbook.
+
+Repeat for each logbook you want to move. An ADIF file holds QSOs only. Operator profiles and settings don't travel with it, so set those up on the new device yourself.
