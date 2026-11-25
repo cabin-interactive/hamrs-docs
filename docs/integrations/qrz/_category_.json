@@ -1,0 +1,8 @@
+{
+  "label": "QRZ Logbook",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Upload your QSOs from HAMRS to your QRZ Logbook."
+  }
+}
