@@ -22,7 +22,16 @@ function HomepageHeader() {
             to="https://hamrs.app">
             Download HAMRS
           </Link>
+          <Link
+            className="button button--outline button--secondary button--lg"
+            to="https://discord.gg/nngWMtXTqH">
+            Join the Discord
+          </Link>
         </div>
+        <p className={styles.helpLine}>
+          Questions about subscriptions, versions, or where your data lives?{' '}
+          <Link to="/docs/faq">Read the FAQ</Link>
+        </p>
       </div>
     </header>
   );
