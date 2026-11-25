@@ -86,6 +86,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'logbooksSidebar',
+          position: 'left',
+          label: 'Logbooks',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'integrationSidebar',
           position: 'left',
           label: 'Integrations',
@@ -113,6 +119,10 @@ const config: Config = {
             {
               label: 'Sync',
               to: '/docs/sync/setting-up-sync',
+            },
+            {
+              label: 'Logbooks',
+              to: '/docs/logbooks/exporting-adif',
             },
             {
               label: 'Rig Control',
