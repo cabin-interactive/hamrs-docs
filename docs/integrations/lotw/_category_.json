@@ -1,0 +1,8 @@
+{
+  "label": "LoTW",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Get HAMRS contacts into ARRL's Logbook of The World."
+  }
+}
