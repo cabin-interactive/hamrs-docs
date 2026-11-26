@@ -1,8 +1,0 @@
-{
-  "label": "Callsign Lookups",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "Fill in a contact's name, location, and grid automatically from HamDB or QRZ.com."
-  }
-}

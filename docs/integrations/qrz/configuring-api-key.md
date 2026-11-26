@@ -9,7 +9,7 @@ sidebar_position: 1
 :::info
 The **QRZ Logbook API key** is for **uploading QSOs** from HAMRS to your QRZ Logbook. It requires a paid QRZ.com XML subscription.
 
-It is not the credential used for **callsign lookups**. Lookups use your **QRZ.com username and password** instead. See [Callsign Lookups](/docs/integrations/lookups/callsign-lookups) to set those up, and the [Which credential is which](/docs/integrations/lookups/callsign-lookups#which-credential-is-which) table if you're not sure which one you need.
+Callsign lookups use a different credential: your QRZ.com username and password. See [Which credential is which](/docs/integrations/callsign-lookups#which-credential-is-which).
 :::
 
 ## Finding your API Key on QRZ.com
