@@ -29,7 +29,7 @@ function HomepageHeader() {
           </Link>
         </div>
         <p className={styles.helpLine}>
-          Questions about subscriptions, versions, or where your data lives?{' '}
+          Questions about subscriptions, versions, or getting help?{' '}
           <Link to="/docs/faq">Read the FAQ</Link>
         </p>
       </div>
