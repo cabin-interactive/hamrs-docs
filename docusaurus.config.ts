@@ -122,7 +122,7 @@ const config: Config = {
             },
             {
               label: 'Logbooks',
-              to: '/docs/logbooks/exporting-adif',
+              to: '/docs/logbooks/adif-export-import',
             },
             {
               label: 'Rig Control',
