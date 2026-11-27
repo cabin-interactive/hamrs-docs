@@ -1,0 +1,8 @@
+{
+  "label": "Logbooks",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Export and import ADIF files, and move your logbooks to a new device."
+  }
+}
