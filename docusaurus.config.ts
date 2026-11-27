@@ -86,6 +86,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'loggingSidebar',
+          position: 'left',
+          label: 'Logging',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'integrationSidebar',
           position: 'left',
           label: 'Integrations',
@@ -113,6 +119,10 @@ const config: Config = {
             {
               label: 'Sync',
               to: '/docs/sync/setting-up-sync',
+            },
+            {
+              label: 'Logging',
+              to: '/docs/logging/templates',
             },
             {
               label: 'Rig Control',
