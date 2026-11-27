@@ -96,6 +96,12 @@ const config: Config = {
           position: 'left',
           label: 'Rig Control',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'faqSidebar',
+          position: 'left',
+          label: 'FAQ',
+        },
         // { to: '/blog', label: 'Blog', position: 'left' },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
@@ -117,6 +123,10 @@ const config: Config = {
             {
               label: 'Rig Control',
               to: '/docs/rig-control/getting-started',
+            },
+            {
+              label: 'FAQ',
+              to: '/docs/faq',
             },
           ],
         },
